@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Apple Application Automation Test Sanity Suite" duration-ms="56162" started-at="2018-02-19T20:26:52Z" finished-at="2018-02-19T20:27:49Z">
+    <groups>
+    </groups>
+    <test name="Grid Chrome Test for Apple Application" duration-ms="56162" started-at="2018-02-19T20:26:52Z" finished-at="2018-02-19T20:27:49Z">
+      <class name="com.apple.testcases.LoginTestScenario">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.apple.testcases.LoginTestScenario@3fee9989]" name="init" is-config="true" duration-ms="16" started-at="2018-02-20T01:56:52Z" finished-at="2018-02-20T01:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.apple.testcases.LoginTestScenario@3fee9989]" name="LoginTest" duration-ms="17749" started-at="2018-02-20T01:56:54Z" data-provider="UserCredentials" finished-at="2018-02-20T01:57:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User@1Apple]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.apple.testcases.LoginTestScenario@3fee9989]" name="LoginTest" duration-ms="19004" started-at="2018-02-20T01:57:11Z" data-provider="UserCredentials" finished-at="2018-02-20T01:57:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User@2Apple]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.apple.testcases.LoginTestScenario@3fee9989]" name="LoginTest" duration-ms="18253" started-at="2018-02-20T01:57:30Z" data-provider="UserCredentials" finished-at="2018-02-20T01:57:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User@3Apple]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- com.apple.testcases.LoginTestScenario -->
+    </test> <!-- Grid Chrome Test for Apple Application -->
+  </suite> <!-- Apple Application Automation Test Sanity Suite -->
+</testng-results>

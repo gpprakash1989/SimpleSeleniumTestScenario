@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Apple Application Automation Test Sanity Suite" verbose="2" parallel = "tests" thread-count = "1">
+<test name="Grid Firefox Test for Apple Application">
+	<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="com.apple.testcases.HomePageTest" />
+			<class name="com.apple.testcases.LoginPageTest" />
+		</classes>
+	</test>
+	
+	<test name="Grid Chrome Test for Apple Application">
+	<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.apple.testcases.HomePageTest" />
+			<class name="com.apple.testcases.LoginPageTest" />
+		</classes>
+	</test>
+	<!--  <test name="Grid ie Test for Apple Application">
+	<parameter name="browser" value="IE"/>
+		<classes>
+			<class name="com.apple.testcases.HomePageTest" />
+			<class name="com.apple.testcases.LoginPageTest" />
+		</classes>
+	</test> -->
+</suite>
